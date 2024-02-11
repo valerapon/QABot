@@ -1,5 +1,6 @@
 .DS_Store
 src/.DS_Store
+.token
 
 /logs
 /src/__pycache__
