@@ -1,6 +1,6 @@
 # QABot
 
-**Для корректной работы нужно поместить [токен OpenAI](https://platform.openai.com/api-keys) для ChatGPT в `token.txt`.**
+**Для корректной работы нужно поместить [токен OpenAI](https://platform.openai.com/api-keys) для ChatGPT в переменную окружения `OPENAI_API_KEY` в [src/main.py](src/main.py).**
 
 Сборка: `docker build -t qabot .`  
 Запуск: `docker run -d --name QABot -p 80:80 qabot`  
