@@ -1,11 +1,12 @@
 import os
 from fastapi import FastAPI
-from src import create_logger, check_app, build_base, build_model
+from src import create_logger, create_dir, check_app, build_base, build_model
 
 
 os.environ['OPENAI_API_KEY'] = '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'
 
 
+create_dir('logs')
 check_app()
 logger = create_logger('main.log')
 vectors_base, chunks_dict = build_base()
