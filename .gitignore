@@ -1,6 +1,6 @@
 .DS_Store
 src/.DS_Store
-.token
+token.txt
 
 /logs
 /src/__pycache__

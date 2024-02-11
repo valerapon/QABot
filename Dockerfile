@@ -9,6 +9,7 @@ RUN apt-get install -y \
         ffmpeg libsm6 libxext6 libxrender1 libglib2.0-0
 
 COPY ./requirements.txt /ChatBot/requirements.txt
+COPY ./token.txt /ChatBot/token.txt
 
 RUN pip3 install -U pip
 RUN pip3 install --upgrade pip
