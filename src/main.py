@@ -3,7 +3,7 @@ from fastapi import FastAPI
 from src import create_logger, create_dir, check_app, build_base, build_model
 
 
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = 'TOKEN'
 
 create_dir("logs")
 check_app()
